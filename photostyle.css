@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient( #4568dc, #b06ab3);
+    background-color: #2f3035;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.container{
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 80px;
+    text-align: center;
+}
+img {
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.cards1{
+    height: 400px;
+    width: 30%;
+
+}
+.cards2 {
+    min-height: 300px;
+    width: 30%;
+}
+.cards3 {
+    min-height: 300px;
+    width: 30%;
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+}
+nav a{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer{
+    background-color: rgba(3, 3, 3, 0.719);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+ 
+ }
+ footer p{
+    font-size: 10px;
+    text-align: center;
+    color:white;
+}
+.cards .cards1 img {
+    width: 310px;
+    height:300px ;
+   
+}
+.cards .cards2 img {
+    width: 310px;
+    height:300px ;
+}
+.cards .cards3 img {
+    width: 310px;
+    height:300px ;
+}
