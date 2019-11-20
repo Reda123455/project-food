@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient( #4568dc, #b06ab3);
+    background-image: linear-gradient( #9D50BB, #6E48AA);
     background-color: #2f3035;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,12 +7,14 @@ body{
     height: 100%;
 }
 .container{
-   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    width: 1024px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-
 header {
     height: 80px;
     text-align: center;
@@ -29,25 +31,27 @@ nav {
     padding-top: 14px;
     padding-bottom: 14px;
     margin-top: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
 }
-
+a:hover ,
+a:focus {
+    color: #FFFFFF;
+	border-radius: 100px 0px 100px 0px;
+	background: #aaa8a869;
+    height: auto;
+}
 .cards{
+    justify-content: space-around;
     display: flex;
-    justify-content: space-between;
+    margin: 5px;
+    flex-wrap: wrap;
     margin-top: 5px;
+  
 }
-.cards1{
-    height: 400px;
-    width: 30%;
-
-}
-.cards2 {
-    min-height: 300px;
-    width: 30%;
-}
-.cards3 {
-    min-height: 300px;
-    width: 30%;
+.cards img{
+    width: 310px;
+    height:300px ;
 }
 a{
     color: white;
@@ -56,31 +60,19 @@ a{
 }
 nav a{
     font-size: 12px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 footer{
     background-color: rgba(3, 3, 3, 0.719);
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 10px;
- 
+    margin-left: 21px;
+    margin-right: 21px;
  }
  footer p{
     font-size: 10px;
     text-align: center;
     color:white;
-}
-.cards .cards1 img {
-    width: 310px;
-    height:300px ;
-   
-}
-.cards .cards2 img {
-    width: 310px;
-    height:300px ;
-}
-.cards .cards3 img {
-    width: 310px;
-    height:300px ;
 }
